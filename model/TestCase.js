@@ -27,10 +27,10 @@ const
 		},
 		env: {
 			type: String,
-			enum: [ 'TST', 'SIT2', 'OAT' ],
+			enum: [ 'TST', 'SIT2', 'OAT', 'SIT3','CSIT' ],
 			uppercase: true,
 			required: true,
-			default: 'SIT2',
+			default: 'SIT3',
 			set: name => name.toUpperCase(),
 		},
 		BP: {
